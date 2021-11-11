@@ -1,0 +1,64 @@
+// // large phones
+
+@media screen and (max-width: 650px) {
+  // //
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+
+    .info-section {
+      h1,
+      p {
+        text-align: center;
+      }
+
+      button {
+        margin: 25px 30px;
+      }
+    }
+  }
+  .social-icons {
+    justify-content: space-around;
+    margin-right: 0;
+  }
+}
+
+// // small phones
+@media screen and (max-width: 390px) {
+  body {
+    background-image: url(../../images/bg-mobile.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 25px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .header {
+    margin-bottom: 30px;
+  }
+
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+
+    .info-section {
+      h1,
+      p {
+        text-align: center;
+      }
+
+      button {
+        margin: 25px 70px;
+      }
+    }
+  }
+  .social-icons {
+    justify-content: space-around;
+    margin-right: 0;
+  }
+}
+
+// // desktop
